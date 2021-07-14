@@ -1,81 +1,102 @@
 /* Google Fonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 /*====================================
     Common Css Start 
 ======================================*/
+
 body {
-    font-family: 'Poppins', sans-serif;
-    margin:0;
-    padding:0;
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	padding: 0;
 }
+
 .container {
-    width:85%;
-    margin:0 auto;
+	width: 85%;
+	margin: 0 auto;
 }
+
 img {
-    max-width:100%;
+	max-width: 100%;
 }
+
 a {
-    text-decoration: none;
+	text-decoration: none;
 }
+
 a.link-button {
-    background-color: #E02C6D;
-    color: #fff;
-    padding: 10px 25px;
+	background-color: #E02C6D;
+	color: #fff;
+	padding: 10px 25px;
+	font-size: 16px;
 }
+
 .fa-arrow-right {
-    font-size: 13px;
-    padding-left: 5px;
+	font-size: 13px;
+	padding-left: 5px;
 }
+
 
 /* Section-Title */
 
 .section-title {
-    text-align: center;
-    margin-bottom: 45px;
+	text-align: center;
+	margin-bottom: 45px;
 }
 
 .section-title h2 {
-    font-size: 35px;
-    color: #000;
-    margin-bottom: 12px;
+	font-size: 35px;
+	color: #0A0826;
+	margin-bottom: 20px;
 }
 
 .section-title p {
-    width: 40%;
-    margin: 0 auto;
+	width: 40%;
+	margin: 0 auto;
+	color: #6c6c6c;
 }
+
 .tomato {
-    color:tomato;
+	color: tomato;
 }
+
+
 /*====================================
     Common Css End 
 ======================================*/
 
+
 /*====================================
     Header-Area Start 
 ======================================*/
+
 .header-area {
-    background-color:#2D25A0;
-    padding:85px 0;
-    color:#fff;
+	background-color: #2D25A0;
+	padding: 85px 0;
+	color: #fff;
 }
 
 .banner-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 105px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 105px;
 }
+
 h2.banner-title {
-    font-size: 64px;
-    font-weight: bold;
+	font-size: 64px;
+	font-weight: bold;
+	color: #fff;
+	margin-top: 12px;
+	margin-bottom: 28px;
 }
 
 .header-area:hover .banner-image img {
-    transform: rotate(30deg);
-    transition: transform 1s ease-in-out;
+	transform: rotate(30deg);
+	transition: transform 1s ease-in-out;
 }
+
+
 /*====================================
     Header-Area End 
 ======================================*/
@@ -84,149 +105,178 @@ h2.banner-title {
 /*====================================
     Top-Player-Area Start 
 ======================================*/
+
 .Top-player-area {
-    background-color: #fff;
-    padding: 70px 0;
+	background-color: #fff;
+	padding: 70px 0;
 }
 
 .players {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap: 30px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 30px;
 }
 
 .player {
-    padding: 10px;
-    box-shadow: 12px 12px 40px #eaeaea;
+	padding: 10px;
+	box-shadow: 12px 12px 40px #eaeaea;
 }
+
 .player-name {
-    font-size: 28px;
-    color:#18191F;
-    margin:10px 0;
+	font-size: 28px;
+	color: #18191F;
+	margin: 10px 0;
 }
+
 .player p {
-    color: #6C6C6C;
-    font-size: 16px;
+	color: #6C6C6C;
+	font-size: 16px;
 }
+
+
 /*====================================
     Top-Player-Area End 
 ======================================*/
+
+
 /*====================================
     Highlight-Area Start 
 ======================================*/
 
 .highlight-area {
-    padding: 70px 0;
+	padding: 70px 0;
 }
 
 .highlights {
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-column-gap: 66px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-column-gap: 66px;
 }
+
 .highlight-title {
-    font-size: 48px;
-    color:#0A0826;
-    margin-bottom:0;
+	font-size: 48px;
+	color: #0A0826;
+	margin-bottom: 0;
 }
+
 .left-highlight p {
-    margin-top: 5px;
-    margin-bottom: 25px;
+	margin-top: 5px;
+	margin-bottom: 25px;
+	color: #6C6C6C;
+	font-size: 16px;
 }
+
+
 /*====================================
     Highlight-Area End 
 ======================================*/
+
 
 /*====================================
     Award-Area Start 
 ======================================*/
 
 .award-area {
-    background-color:#eaeaea;
-    padding: 70px 0;
+	background-color: #eaeaea;
+	padding: 70px 0;
 }
+
 .awards {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-column-gap: 30px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-column-gap: 30px;
 }
+
 .award {
-    text-align: center;
+	text-align: center;
 }
+
 .award img {
-    height: 200px;
+	height: 200px;
 }
+
 .award-title {
-    font-size: 28px;
-    color: #0A0826;
+	font-size: 28px;
+	color: #0A0826;
 }
+
 
 /*====================================
     Award-Area End 
 ======================================*/
 
+
 /*====================================
     Coaches-Area Start 
 ======================================*/
+
 .coaches-area {
-    padding:70px 0;
-    background-color:#fafafa;
+	padding: 70px 0;
+	background-color: #fafafa;
 }
+
 .coaches {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-column-gap: 30px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-column-gap: 30px;
 }
+
 .coach {
-    border: 1px solid gray;
-    padding: 8px;
+	border: 1px solid gray;
+	padding: 8px;
 }
 
 .coach img {
-    width: 100%;
-    height: 280px;
+	width: 100%;
+	height: 280px;
 }
+
 .coach-name {
-    color:#18191F;
+	color: #18191F;
 }
+
 .coach p {
-    color: #6c6c6c;
+	color: #6c6c6c;
 }
+
+
 /*====================================
     Coaches-Area End 
 ======================================*/
 
+
 /*====================================
     Footer-Area Start 
 ======================================*/
+
 footer.footer-area {
-    text-align: center;
-    padding: 70px 0;
+	text-align: center;
+	padding: 70px 0;
 }
 
 .footer-logo img {
-    width: 480px;
+	width: 480px;
 }
 
 .footer-social-icon a i {
-    background-color: #E7E7E8;
-    width: 32px;
-    height: 32px;
-    text-align: center;
-    line-height: 32px;
-    border-radius: 50%;
-    font-size: 18px;
-    margin-right: 14px;
-    color:#969BAB;
+	background-color: #E7E7E8;
+	width: 32px;
+	height: 32px;
+	text-align: center;
+	line-height: 32px;
+	border-radius: 50%;
+	font-size: 18px;
+	margin-right: 14px;
+	color: #969BAB;
 }
+
 .copyright p {
-    font-size: 18px;
-    color: #000;
+	font-size: 18px;
+	color: #000;
+	margin-top: 20px;
 }
-main {
-    display: flex;
-    flex-direction: column;
-}
+
+
 /*====================================
     Footer-Area End 
 ======================================*
@@ -237,51 +287,87 @@ main {
     Media Quaris Start
 ======================================*/
 
+
 /* Mobile device */
 
-@media only screen and (max-width:480px){
-    .header-area {
-        padding: 50px 0;
-    }
-    .banner-grid, .players {
-        grid-template-columns: 1fr;
-    }
-    h2.banner-title {
-        font-size: 36px;
-    }
-
-    .highlights {
-        grid-template-columns: repeat(1,1fr);
-        grid-row-gap: 66px;
-    }
-    .highlight-title {
-        font-size: 30px;
-        margin-bottom: 10px;
-    }
-    .highlight-area {
-        padding: 30px 0;
-    }
-
-    .award-area {
-        padding: 30px 0;
-    }
-
-    .section-title p {
-        width: 100%;
-    }
-.awards, .coaches {
-    grid-template-columns: repeat(1,1fr);
-    grid-row-gap: 30px;
-}
-.section-title h2 {
-    font-size: 30px;
-}
-.footer-area {
-    margin-bottom:50px;
-}
-}
-
-/* tablet device */
 @media only screen and (max-width:480px) {
-
+	.header-area {
+		padding: 50px 0;
+	}
+	.banner-grid,
+	.players {
+		grid-template-columns: 1fr;
+	}
+	.banner-grid {
+		grid-row-gap: 60px;
+	}
+	h2.banner-title {
+		font-size: 36px;
+	}
+	.Top-player-area {
+		padding: 48px 0;
+	}
+	.highlights {
+		grid-template-columns: repeat(1, 1fr);
+		grid-row-gap: 40px;
+	}
+	.highlight-title {
+		font-size: 30px;
+		margin-bottom: 8px;
+	}
+	.highlight-area {
+		padding: 30px 0;
+	}
+	.award-area {
+		padding: 30px 0;
+	}
+	.section-title p {
+		width: 100%;
+	}
+	.coaches-area {
+		padding: 30px 0;
+		background-color: #fafafa;
+	}
+	.awards,
+	.coaches {
+		grid-template-columns: repeat(1, 1fr);
+		grid-row-gap: 30px;
+	}
+	.section-title h2 {
+		font-size: 30px;
+	}
+	.footer-area {
+		margin-bottom: 50px;
+	}
 }
+
+
+/* ======== Tablet device ===========*/
+
+@media only screen and (min-width:480px) and (max-width:769px) {
+	.banner-grid {
+		grid-template-columns: 1fr;
+	}
+	.players {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.highlights {
+		grid-template-columns: repeat(1, 1fr);
+		grid-row-gap: 66px;
+	}
+	.section-title p {
+		width: 70%;
+	}
+	.coaches {
+		grid-template-columns: repeat(1, 1fr);
+		grid-row-gap: 30px;
+	}
+	.coach img {
+		height: 390px;
+	}
+}
+
+
+/*====================================
+    Media Quaris End
+======================================*/
