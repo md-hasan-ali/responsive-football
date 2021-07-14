@@ -348,7 +348,7 @@ footer.footer-area {
 
 /* ======== Tablet device ===========*/
 
-@media only screen and (min-width:480px) and (max-width:769px) {
+@media only screen and (min-width:480px) and (max-width:768px) {
 	.banner-grid {
 		grid-template-columns: 1fr;
 	}
@@ -362,7 +362,7 @@ footer.footer-area {
 	.section-title p {
 		width: 70%;
 	}
-	.coaches {
+	.coaches, .awards {
 		grid-template-columns: repeat(1, 1fr);
 		grid-row-gap: 30px;
 	}
