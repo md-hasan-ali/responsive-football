@@ -223,6 +223,10 @@ footer.footer-area {
     font-size: 18px;
     color: #000;
 }
+main {
+    display: flex;
+    flex-direction: column;
+}
 /*====================================
     Footer-Area End 
 ======================================*
