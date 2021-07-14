@@ -10,7 +10,7 @@ body {
     padding:0;
 }
 .container {
-    width:1160px;
+    width:85%;
     margin:0 auto;
 }
 img {
@@ -240,9 +240,6 @@ main {
 /* Mobile device */
 
 @media only screen and (max-width:480px){
-    .container {
-        width: 90%;
-    }
     .header-area {
         padding: 50px 0;
     }
@@ -279,4 +276,12 @@ main {
 .section-title h2 {
     font-size: 30px;
 }
+.footer-area {
+    margin-bottom:50px;
+}
+}
+
+/* tablet device */
+@media only screen and (max-width:480px) {
+
 }
