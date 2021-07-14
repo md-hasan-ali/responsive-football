@@ -10,15 +10,17 @@ body {
     padding:0;
 }
 .container {
-    max-width:1180px;
+    max-width:1160px;
     margin:0 auto;
 }
 img {
     max-width:100%;
 }
+a {
+    text-decoration: none;
+}
 a.link-button {
     background-color: #E02C6D;
-    text-decoration: none;
     color: #fff;
     padding: 10px 25px;
 }
@@ -67,6 +69,7 @@ a.link-button {
 }
 h2.banner-title {
     font-size: 64px;
+    font-weight: bold;
 }
 
 .header-area:hover .banner-image img {
@@ -167,6 +170,7 @@ h2.banner-title {
 ======================================*/
 .coaches-area {
     padding:70px 0;
+    background-color:#fafafa;
 }
 .coaches {
     display: grid;
@@ -191,3 +195,34 @@ h2.banner-title {
 /*====================================
     Coaches-Area End 
 ======================================*/
+
+/*====================================
+    Footer-Area Start 
+======================================*/
+footer.footer-area {
+    text-align: center;
+    padding: 70px 0;
+}
+
+.footer-logo img {
+    width: 480px;
+}
+
+.footer-social-icon a i {
+    background-color: #E7E7E8;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    border-radius: 50%;
+    font-size: 18px;
+    margin-right: 14px;
+    color:#969BAB;
+}
+.copyright p {
+    font-size: 18px;
+    color: #000;
+}
+/*====================================
+    Footer-Area End 
+======================================*
