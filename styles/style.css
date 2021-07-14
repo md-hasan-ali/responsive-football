@@ -47,9 +47,10 @@ a.link-button {
 }
 
 .section-title h2 {
-	font-size: 35px;
-	color: #0A0826;
-	margin-bottom: 20px;
+    font-size: 35px;
+    color: #0A0826;
+    margin-bottom: 20px;
+    margin-top: 0;
 }
 
 .section-title p {
@@ -81,7 +82,7 @@ a.link-button {
 .banner-grid {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	gap: 105px;
+	gap: 102px;
 }
 
 h2.banner-title {
@@ -189,7 +190,9 @@ h2.banner-title {
 }
 
 .award {
-	text-align: center;
+    text-align: center;
+    border: 2px solid gray;
+    padding: 10px;
 }
 
 .award img {
