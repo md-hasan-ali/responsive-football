@@ -45,7 +45,8 @@ a.link-button {
     padding: 10px 25px;
 }
 .fa-arrow-right {
-    font-size: 12px;
+    font-size: 13px;
+    padding-left: 5px;
 }
 .header-area:hover .banner-image img {
     transform: rotate(30deg);
@@ -74,7 +75,40 @@ a.link-button {
     padding: 10px;
     box-shadow: 12px 12px 40px #eaeaea;
 }
-
+.player-name {
+    font-size: 28px;
+    color:#18191F;
+    margin:10px 0;
+}
+.player p {
+    color: #6C6C6C;
+    font-size: 16px;
+}
 /*====================================
     Top-Player-Area End 
+======================================*/
+/*====================================
+    Highlight-Area Start 
+======================================*/
+
+.highlight-area {
+    padding: 70px 0;
+}
+
+.highlights {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 66px;
+}
+.highlight-title {
+    font-size: 48px;
+    color:#0A0826;
+    margin-bottom:0;
+}
+.left-highlight p {
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+/*====================================
+    Highlight-Area End 
 ======================================*/
